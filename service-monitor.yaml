@@ -1,0 +1,15 @@
+--- FILE: prometheus/service-monitor.yaml
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+name: simple-ecom-sm
+labels:
+release: prometheus
+spec:
+selector:
+matchLabels:
+app: simple-ecom
+endpoints:
+- port: http
+path: /metrics
+interval: 15s

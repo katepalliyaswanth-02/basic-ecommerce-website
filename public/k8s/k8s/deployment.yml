@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+name: simple-ecom
+labels:
+app: simple-ecom
+spec:
+replicas: 2
+selector:
+matchLabels:
+app: simple-ecom
+template:
+metadata:
+labels:
+app: simple-ecom
+annotations:
+prometheus.io/scrape: "true"
+prometheus.io/port: "3000"
+spec:
+containers:
+- name: simple-ecom
+image: YOUR_REGISTRY/simple-ecom:latest
+ports:
+- containerPort: 3000
+volumeMounts:
+- name: data
+mountPath: /app/data
+volumes:
+- name: data
+emptyDir: {}
