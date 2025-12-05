@@ -65,3 +65,8 @@ Docker
 Kubernetes (Deployment, Service, HPA)
 Prometheus Monitoring
 ````
+
+
+<img width="1558" height="546" alt="image" src="https://github.com/user-attachments/assets/0a969f44-f89d-4e85-8a07-76f3cbb5c285" />
+
+
