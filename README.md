@@ -2,7 +2,7 @@
 A simple Node.js-based ecommerce application with built-in database support, REST API, frontend UI, Docker deployment, and Kubernetes manifests.
 
 # PROJECT STRUCTURE
-// 
+''''
 ECOMMERCE-PLATFORM/
 │
 ├── data/
@@ -24,8 +24,7 @@ ECOMMERCE-PLATFORM/
 ├── server.js                 # Main backend server
 ├── service-monitor.yaml      # Prometheus ServiceMonitor
 └── README.md                 # Documentation
-
-// 
+''''
 
 
 # //Features
