@@ -1,8 +1,8 @@
 # Basic Ecommerce Platform
 A simple Node.js-based ecommerce application with built-in database support, REST API, frontend UI, Docker deployment, and Kubernetes manifests.
 
-PROJECT STRUCTURE
-#
+# PROJECT STRUCTURE
+
 ECOMMERCE-PLATFORM/
 │
 ├── data/
